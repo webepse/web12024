@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+:root{
+    --color_test: blue;
+}
+/* ul li:nth-child(3)
+{
+    color: red;
+}
+
+ul li:first-child
+{
+    color: purple;
+}
+
+ul li:last-child
+{
+    color: pink;
+} */
+
+/* ul li:nth-child(even)
+{
+    color: red;
+} */
+
+ul li:nth-child(2n)
+{
+    color: var(--color_test);
+}
+
+.slide{
+    width: 100%;
+    min-height: 100vh; 
+}
+
+#home{
+    min-height: calc(100vh - 30px);
+    background-color: darkblue;
+    color: white;
+    padding-top: 30px;
+}
